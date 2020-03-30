@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 750px;
+    margin: 30px auto;
+    background-color: #dee6ee;
+    padding: 20px;
+    position: relative;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 18%
+}
+#imgs img:hover{
+    transform: scale(1.02, 1.02);
+    box-shadow: 0 0  15px black;
+}
+table{
+    /*border: 1px solid;*/
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+td{
+    padding: 5px;
+    border-top: 1px solid;
+    width: 50px;
+    text-align: center;
+}
+h2{
+    line-height: 260px;
+}
+#partimg{
+    margin: 20% 4%;
+    width: 200px;
+    height: 200px;
+}
